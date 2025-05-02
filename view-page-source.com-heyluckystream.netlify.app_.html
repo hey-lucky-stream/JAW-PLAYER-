@@ -14,97 +14,14 @@
       max-height: 100%; 
     } 
 
-    /* Premium Pop-up Styles */
-    #telegramPopup {
-      position: fixed;
-      width: 100%;
-      height: 100%;
-      background: rgba(0, 0, 0, 0.9);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      z-index: 9999;
-      animation: fadeIn 0.5s ease-in-out;
-    }
-    .popup-content {
-      background: linear-gradient(135deg, #1a1a2e, #16213e);
-      padding: 25px;
-      text-align: center;
-      border-radius: 10px;
-      width: 85%;
-      max-width: 350px;
-      box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
-      animation: slideUp 0.5s ease-in-out;
-    }
-    .popup-content img {
-      width: 80px;
-      border-radius: 50%;
-      margin-bottom: 10px;
-      border: 3px solid white;
-    }
-    .popup-content h2 {
-      margin: 10px 0;
-      font-size: 20px;
-      color: #fff;
-      font-weight: bold;
-    }
-    .popup-content p {
-      color: #ccc;
-      font-size: 14px;
-      margin-bottom: 15px;
-    }
-    .popup-content a {
-      display: block;
-      background: #0088cc;
-      color: white;
-      padding: 12px;
-      border-radius: 5px;
-      text-decoration: none;
-      font-weight: bold;
-      transition: 0.3s;
-      margin-bottom: 10px;
-    }
-    .popup-content a:hover {
-      background: #006699;
-    }
-    .popup-content button {
-      background: #ff4444;
-      color: white;
-      padding: 10px 15px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      font-weight: bold;
-      transition: 0.3s;
-    }
-    .popup-content button:hover {
-      background: #cc0000;
-    }
-
-    /* Animations */
-    @keyframes fadeIn {
-      from { opacity: 0; }
-      to { opacity: 1; }
-    }
-    @keyframes slideUp {
-      from { transform: translateY(50px); opacity: 0; }
-      to { transform: translateY(0); opacity: 1; }
-    }
+    
+      
   </style> 
 </head> 
 <body> 
   <div id="jwplayerDiv"></div> 
 
-  <!-- Premium Telegram Pop-up -->
-  <div id="telegramPopup">
-    <div class="popup-content">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram">
-      <h2>Join Our Telegram Channel</h2>
-      <p>Get exclusive content, updates, and support by joining our channel now!</p>
-      <a href="https://t.me/cricketclipsprovider" target="_blank">🔥 Join Now</a>
-      <button onclick="closePopup()">❌ Close</button>
-    </div>
-  </div>
+  
 
   <script> 
     function getQueryParam(name) {
